@@ -1,0 +1,24 @@
+version: "3"
+services: 
+    backend:
+        image: mkgloamglozer/skyrewards-backend
+        container_name: backend
+        ports:
+            - 8080:8080
+        networks:
+            skyrewards:
+                aliases:
+                    - backend
+    frontend:
+        image: mkgloamglozer/skyrewards-frontend
+        container_name: frontend
+        depends_on: 
+            - backend
+        ports:
+            - 3001:80
+        networks:
+           skyrewards:
+               aliases:
+                  - frontend
+networks:
+    skyrewards:
