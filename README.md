@@ -19,4 +19,4 @@ The backend folder contains a simple Eligibility Service that returns the follow
 /api/111 - CUSTOMER_ELIGIBLE
 /api/666 - CUSTOMER_INELIGIBLE
 /api/999 - status 500 internal server error
-/api/222 (or any other value) - 404 {acc_number} is not valid 
+/api/222 (or any other value) - status 404 {acc_number} is not valid 
