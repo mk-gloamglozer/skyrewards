@@ -6,7 +6,7 @@ The source code for this solution can be found in the front-end folder. The back
 docker-compose up
 ```
 
-from within this folder. This command will launch the front and backend and the UI can then be seen at http://localhost/3001
+from within this folder. This command will launch the front and backend and the UI can then be seen at http://localhost:3001
 
 tests for the frontend can be run using 
 ```
