@@ -13,3 +13,10 @@ tests for the frontend can be run using
 npm test
 ```
 from within the front-end folder
+
+The backend folder contains a simple Eligibility Service that returns the following at the following endpoints 
+
+/api/111 - CUSTOMER_ELIGIBLE
+/api/666 - CUSTOMER_INELIGIBLE
+/api/999 - status 500 internal server error
+/api/222 (or any other value) - 404 {acc_number} is not valid 
