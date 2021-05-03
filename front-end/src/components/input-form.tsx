@@ -80,7 +80,7 @@ const SelectorGrid:React.FC<SelectorGridProps> = (props:SelectorGridProps) =>{
             alignItems="center"
             justify="center">{
         buttonIds.map((buttonId) => 
-            <Grid item xs={4} justify="center">
+            <Grid item xs={4} key={buttonId}>
                 <Button 
                     variant="contained" 
                     color={props.onOffArray[buttonId] ? "secondary" : "primary"}
