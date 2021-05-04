@@ -23,3 +23,7 @@ The backend folder contains a simple Eligibility Service that returns the follow
 /api/999 - status 500 internal server error
 
 /api/222 (or any other value) - status 404 {acc_number} is not valid 
+
+## TODO - UI tests 
+
+I have uploaded this without UI tests as I haven't had a chance to implement them yet. If you'd prefer to wait for them before reviewing let me know.
